@@ -3,7 +3,7 @@ local useSubmix = false
 RegisterCommand("+carMegaphone", function()
     if canUseCarMegaphone() then
         if useSubmix then
-            TriggerServerEvent("jay-audio:server:addSubmix")
+            TriggerServerEvent("jay-audio:server:addSubmix", "carmicrophone")
         end
         exports["pma-voice"]:overrideProximityRange(50.0, true)
     end

@@ -4,6 +4,7 @@ lua54 'yes'
 
 client_scripts{
     --'@ox_lib/init.lua', -- Comment/Uncomment for ox
+    --'@ox_core/imports/client.lua', -- Comment/Uncomment for ox
     --'bridge/ox.lua', -- Comment/Uncomment for ox
     --'bridge/qb.lua', -- Comment/Uncomment for QBCore
     --'bridge/esx.lua', -- Comment/Uncomment for ESX
